@@ -1,0 +1,48 @@
+html,body{margin:0;padding:0;height:100%}
+button{background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer}
+p{margin:0}
+
+body.bg0{ background: url(../img/bg1.jpg) no-repeat 0 0; background-size: cover;}
+body.bg1{ background: url(../img/bg2.jpg) no-repeat 0 0; background-size: cover;}
+body.bg2{ background: url(../img/bg3.jpg) no-repeat 0 0; background-size: cover;}
+body.bg3{ background: url(../img/bg4.jpg) no-repeat 0 0; background-size: cover;}
+
+#header {position: relative;}
+#header .bgChange{position:absolute;right:0;margin:10px 20px 0 0px;width:100px;height:100px;
+    color:#fff;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.wrapper {position: relative;width:100%;height:100%;}
+
+.contents {margin:0 auto;height: 100%; width:1500px;}
+.contents .tit{margin-bottom:20px;font-size:50px;color:#000;font-weight: bold;}
+.contents .subtit{font-size:40px;color:#000;font-weight: bold;}
+.contents section .wrap{padding:0 50px;margin-bottom:10px;background-color:#fff;border-radius: 10px;border: gray solid 5px;}
+.contents .inputForm{position: relative;margin-bottom:10px;border-bottom: #000 solid 1px;}
+.contents .inputForm  input{display: block;width: 100%;outline:none;color: #636e72;font-size:35px;background: none;color: #000;border: none;}
+
+.contents .time{text-align: center; color:#fff; font-size: 150px;}
+
+.contents .logOn{display:block;margin-bottom:10px;font-size:80px;text-align: center;}
+
+.contents .listType { position: relative;width:100%;height:700px}
+.contents .listType section {float:left;width: 49%;margin-right:2%;height:100%}
+.contents .listType section .wrap{height:100%}
+.contents .listType section:last-child{margin-right:0px}
+
+.contents .listType .todoList{height:500px;overflow-y: scroll;}
+.contents .listType .todoList li{font-size:30px;word-break:break-all}
+.contents .listType .todoList button{color:red;font-size:30px}
+.weatherArea span,.locationArea span{display:block;margin-bottom:40px;font-size:30px}
+
+
+
+
+
+
+
+
+
+
